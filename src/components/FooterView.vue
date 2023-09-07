@@ -37,8 +37,10 @@ footer {
     align-items: center;
     background: #1B1C1D;
     color: rgba(255, 255, 255, 0.9);
-    padding: 80px 0;
+    /* padding: 80px 0; */
+    padding: 1rem;
     margin-top: 80px;
+    bottom: 0;
 }
 
 ul {

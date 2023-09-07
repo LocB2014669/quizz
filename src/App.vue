@@ -1,8 +1,8 @@
 <template>
   <Header />
-  
   <!-- <Register /> -->
-  <Login />
+  <!-- <Login /> -->
+  <InfoCustom />
   <Footer />
   <!-- <Info /> -->
 </template>
@@ -10,17 +10,19 @@
 <script>
 import Header from './components/HeaderLayout.vue';
 // import Register from './pages/RegisterView.vue';
-import Login from './pages/LoginView.vue';
+// import Login from './pages/LoginView.vue';
 // import Info from './pages/InfoView.vue';
 import Footer from './components/FooterView.vue'
+import InfoCustom from './pages/InfoCustomView.vue';
 export default {
   name: 'App',
   components: {
     Header,
     Footer,
     // Register,
-    Login
+    // Login
     // Info
+    InfoCustom
 
   }
 }
