@@ -2,7 +2,10 @@
   <Header />
   <!-- <Register /> -->
   <!-- <Login /> -->
-  <InfoCustom />
+  <!-- <InfoCustom /> -->
+  <!-- <InfoEdit /> -->
+  <!-- <InfoChangeName /> -->
+  <InfoChangePass />
   <Footer />
   <!-- <Info /> -->
 </template>
@@ -13,7 +16,10 @@ import Header from './components/HeaderLayout.vue';
 // import Login from './pages/LoginView.vue';
 // import Info from './pages/InfoView.vue';
 import Footer from './components/FooterView.vue'
-import InfoCustom from './pages/InfoCustomView.vue';
+// import InfoCustom from './pages/InfoCustomView.vue';
+// import InfoEdit from'./pages/InfoEditView.vue';
+// import InfoChangeName from './pages/InfoChangeName.vue'
+import InfoChangePass from './pages/InfoChangePass.vue'
 export default {
   name: 'App',
   components: {
@@ -22,7 +28,10 @@ export default {
     // Register,
     // Login
     // Info
-    InfoCustom
+    // InfoCustom
+    // InfoEdit
+    // InfoChangeName
+    InfoChangePass
 
   }
 }

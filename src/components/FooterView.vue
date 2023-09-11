@@ -41,6 +41,8 @@ footer {
     padding: 1rem;
     margin-top: 80px;
     bottom: 0;
+    /* position: fixed; */
+    width: 100%;
 }
 
 ul {
@@ -74,4 +76,5 @@ ul li a {
 .item-flex{
     margin-bottom: 32px;
     }
+
 </style>
